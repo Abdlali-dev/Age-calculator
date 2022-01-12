@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: tahoma;
+    background-color: #f1f1f1;
+}
+
+h5 {
+    background-color: pink;
+    padding: 0.2em;
+    text-align: center;
+}
+
+#container {
+    width: 90%;
+    border: 1px solid gray;
+    margin: auto;
+}
+
+#container #head {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border: none;
+    outline: none;
+    background-color: #ccc;
+    border-radius: 50px;
+    height: 1.7em;
+    width: 20%;
+    padding: 0.4em;
+}
+
+button {
+    margin-left: 0.5em;
+    border: none;
+    background-color: rgb(16, 163, 16);
+    padding: 0.4em;
+    border-radius: 5px;
+    color: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#container #result {
+    height: 70vh;
+    overflow-y: scroll;
+    text-align: center;
+}
